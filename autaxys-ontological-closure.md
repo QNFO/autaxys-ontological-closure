@@ -5,7 +5,7 @@ date: "2026-08-01"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21748216"
 status: "published"
-version: "1.2"
+version: "1.3"
 ---
 
 **Author:** Rowan Brad Quni-Gudzinas \| **Date:** 2026-08-01 \| **License:** QNFO-ULA: https://legal.qnfo.org/
@@ -26,7 +26,7 @@ This paper formalizes this insight as an operational criterion — the Autaxys O
 
 ### 1.1 Historical Context
 
-The relationship between computation and physical reality has been explored from multiple directions. Landauer's principle [2] established that information is physical — erasing a bit costs $k_B T \ln 2$ in thermodynamic entropy. Wheeler's "it from bit" program [3] proposed that physical reality is intrinsically informational. Deutsch's constructor theory [4] reformulated physics in terms of which transformations are possible and which are forbidden, without reference to dynamics.
+The relationship between computation and physical reality has been explored from multiple directions. Landauer's principle [2] established that information is physical — erasing a bit costs $k_B T \ln 2$ in thermodynamic entropy; in dimensionless Planck units ($\hbar = c = G = k_B = 1$): $T \ln 2$, where both the energy and temperature are pure numbers — Archimedean norms of quantities whose completions exist at every place per Ostrowski's theorem. Wheeler's "it from bit" program [3] proposed that physical reality is intrinsically informational. Deutsch's constructor theory [4] reformulated physics in terms of which transformations are possible and which are forbidden, without reference to dynamics.
 
 The OC criterion departs from these programs in its computational specificity. It does not claim that reality "is" computation — it claims that the boundary of measurability coincides with the boundary of computable approximability. This is a weaker and more testable claim.
 
@@ -154,7 +154,7 @@ The OC criterion decomposes naturally into eleven testable sub-claims, each of w
 
 | # | Sub-Paper | Domain | Core Claim | Falsifiability |
 |:--|:----------|:-------|:-----------|:---------------|
-| 9 | **OC-9: Landauer's Principle as OC Instance** | Information theory | Landauer's principle — $E \geq k_B T \ln 2$ per erased bit — is an OC instance: the computational cost of measurement is physical and finite, and the protocol halts. | Show that a measurement protocol can extract information without a finite thermodynamic cost. |
+| 9 | **OC-9: Landauer's Principle as OC Instance** | Information theory | Landauer's principle — $E \geq k_B T \ln 2$ per erased bit; $E \geq T \ln 2$ in Planck units ($\hbar = c = G = k_B = 1$) — is an OC instance: the computational cost of measurement is physical and finite, and the protocol halts. | Show that a measurement protocol can extract information without a finite thermodynamic cost. |
 | 10 | **OC-10: Oracle Machines and Hypercomputation** | Computability | Oracle machines (Turing machines with access to uncomputable oracles) do not correspond to physical measurement protocols — they violate OC. Hypercomputation is physically unrealizable. | Construct a physical system whose measurement outcome depends on an uncomputable oracle and verify the prediction. |
 | 11 | **OC-11: The Church–Turing–Deutsch Principle as OC Corollary** | Metatheory | The Church–Turing–Deutsch principle — every finitely realizable physical system can be perfectly simulated by a universal Turing machine — is a corollary of OC: if a system's behavior were not computably approximable, its predictions would be unmeasurable. | Construct a physical system whose observable behavior cannot be simulated by any Turing machine. |
 
