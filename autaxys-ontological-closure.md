@@ -5,6 +5,7 @@ date: "2026-08-01"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21747701"
 status: "published"
+version: "1.1"
 ---
 
 **Author:** Rowan Brad Quni-Gudzinas \| **Date:** 2026-08-01 \| **License:** QNFO-ULA: https://legal.qnfo.org/
@@ -25,7 +26,7 @@ This paper formalizes this insight as an operational criterion — the Autaxys O
 
 ### 1.1 Historical Context
 
-The relationship between computation and physical reality has been explored from multiple directions. Landauer's principle [2] established that information is physical — erasing a bit costs $k_B T \ln 2$ in thermodynamic entropy. Wheeler's "it from bit" program [3] proposed that physical reality is fundamentally informational. Deutsch's constructor theory [4] reformulated physics in terms of which transformations are possible and which are forbidden, without reference to dynamics.
+The relationship between computation and physical reality has been explored from multiple directions. Landauer's principle [2] established that information is physical — erasing a bit costs $k_B T \ln 2$ in thermodynamic entropy. Wheeler's "it from bit" program [3] proposed that physical reality is intrinsically informational. Deutsch's constructor theory [4] reformulated physics in terms of which transformations are possible and which are forbidden, without reference to dynamics.
 
 The OC criterion departs from these programs in its computational specificity. It does not claim that reality "is" computation — it claims that the boundary of measurability coincides with the boundary of computable approximability. This is a weaker and more testable claim.
 
@@ -57,7 +58,7 @@ If no such protocol exists — even in principle, with unlimited computational r
 | Operationalism (Bridgman) | Meaning = measurement operations | No computational bound on operations |
 | Constructivism (Bishop) | Mathematical existence = constructive proof | Applied to mathematics, not physics |
 | Deutsch's constructor theory | Physics = which transformations are possible | No explicit computability requirement |
-| Wheeler's "it from bit" | Reality is fundamentally informational | Aspirational, no precise criterion |
+| Wheeler's "it from bit" | Reality is intrinsically informational | Aspirational, no precise criterion |
 | **Autaxys OC** | Physical reality = computable-approximable with modulus of convergence | Precise, testable, computational |
 
 ### 2.4 The Modulus of Convergence Requirement
@@ -110,7 +111,7 @@ This is not a loss. No physical theory currently predicts an uncomputable consta
 
 Consider a classical field $\phi(x)$ defined for every real number $x \in \mathbb{R}$. To fully specify the field's value requires specifying an uncountable infinity of real numbers — one for each point in the continuum. No Turing machine can output an uncountable infinity of values, and no measurement apparatus can resolve structure at arbitrarily small length scales (Planck-scale limitations guarantee this).
 
-The OC criterion does not claim that fields "don't exist." It claims that the *pointwise* value of a field at a specific real coordinate is not a physically real quantity — it cannot be measured at arbitrarily high precision. What IS physically real is the field's value *integrated over a finite region*, which is computably approximable (via lattice regularization and finite-difference methods).
+The OC criterion does not claim that fields "don't exist." It claims that the *pointwise* value of a field at a specific real coordinate is not a physically real quantity — it cannot be measured at arbitrarily high precision. This is not only a computational observation; it follows from thermodynamics. The Bekenstein bound [12] states that the information content $\mathcal{I}$ of any bounded physical system satisfies $\mathcal{I} \leq 2\pi R E / (\hbar c \ln 2)$, where $R$ is the system's spatial extent and $E$ its total energy. For a measurement apparatus of fixed size $R$, resolving a field value to precision $\varepsilon$ requires $\log_2(1/\varepsilon)$ bits — and as $\varepsilon \to 0$, this diverges. The Bekenstein bound forces the apparatus's energy density to diverge in response, and at sufficiently high density the apparatus collapses into a black hole before the measurement completes [13]. The thermodynamic bound and the OC criterion's computability bound are isomorphic in this regime: both exclude the pointwise value as physically inaccessible. What IS physically real is the field's value *integrated over a finite region*, which is computably approximable (via lattice regularization and finite-difference methods).
 
 This maps cleanly onto the effective field theory paradigm [8], where theories are understood to be valid only above a cutoff scale $\Lambda$, and pointwise field values below $\Lambda^{-1}$ are not physically meaningful. The OC criterion provides a computational justification for this paradigm.
 
@@ -120,7 +121,7 @@ In standard quantum mechanics, the state space is a Hilbert space, and observabl
 
 Such an operator would define an "observable" whose measurement outcomes cannot be assigned probabilities in the standard sense — the Born rule would not apply. The OC criterion excludes such observables: if a spectral projection lands on a non-measurable set, the corresponding "quantity" cannot be measured even in principle, because no finite protocol can distinguish membership in a non-measurable set.
 
-This is consistent with the Solèr–Piron–Holland theorem [9], which shows that the standard Hilbert-space formulation of quantum mechanics over $\mathbb{R}$, $\mathbb{C}$, or $\mathbb{H}$ is essentially forced if one requires infinite-dimensional orthomodular spaces with certain regularity conditions. The OC criterion adds a computational regularity condition: observables must correspond to measurable sets, which is already implicit in the Born rule.
+This is consistent with the Solèr–Piron–Holland theorem [9], which shows that the standard Hilbert-space formulation of quantum mechanics over $\mathbb{R}$, $\mathbb{C}$, or $\mathbb{H}$ is effectively forced if one requires infinite-dimensional orthomodular spaces with certain regularity conditions. The OC criterion adds a computational regularity condition: observables must correspond to measurable sets, which is already implicit in the Born rule.
 
 ## 5 The Eleven Sub-Papers
 
@@ -176,7 +177,7 @@ OC-1 is the prerequisite for all others. OC-2 and OC-4 can proceed in parallel. 
 
 ### 6.1 Sensitivity Analysis
 
-The OC criterion's value depends on two judgments: (a) whether the computable/non-computable boundary is the RIGHT boundary for physical reality, and (b) whether the modulus-of-convergence requirement is necessary rather than merely convenient.
+The OC criterion's value depends on two judgments: (a) whether the computable/non-computable boundary is the RIGHT boundary for physical reality, and (b) whether the modulus-of-convergence requirement is necessary rather than only convenient.
 
 **Pessimistic scenario.** If the computability requirement is relaxed (e.g., to "computably approximable without modulus"), the criterion admits more quantities but loses its sharp boundary on measurement time. The 11 sub-papers remain valid but OC-3 (modulus necessity) becomes OC-3 (modulus convenience).
 
@@ -289,3 +290,6 @@ The central prediction is conservative: no counterexample will be found. Every q
 [10] A. Bérut et al., "Experimental verification of Landauer's principle linking information and thermodynamics," *Nature*, vol. 483, pp. 187–189, 2012.
 
 [11] B. Freivogel, "Making predictions in the multiverse," *Classical and Quantum Gravity*, vol. 28, p. 204007, 2011.
+[12] J.D. Bekenstein, "Universal upper bound on the entropy-to-energy ratio for bounded systems," Phys. Rev. D 23, 287–298 (1981). DOI: 10.1103/PhysRevD.23.287
+
+[13] R. Bousso, "Localization of Negative Energy and the Bekenstein Bound," Phys. Rev. Lett. 111, 221601 (2013). DOI: 10.1103/PhysRevLett.111.221601
