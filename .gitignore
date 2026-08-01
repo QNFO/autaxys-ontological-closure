@@ -1,0 +1,19 @@
+# Ephemeral scripts
+_*.py
+_*.js
+# Secrets
+.env
+*.token
+keys.json
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+# OS noise
+Thumbs.db
+.DS_Store
+# IDE
+.vscode/
+.idea/
