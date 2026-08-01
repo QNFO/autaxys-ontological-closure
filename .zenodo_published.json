@@ -1,0 +1,125 @@
+{
+  "created": "2026-08-01T20:55:46.664569+00:00",
+  "modified": "2026-08-01T20:55:47.103532+00:00",
+  "id": 21747701,
+  "conceptrecid": "21747700",
+  "doi": "10.5281/zenodo.21747701",
+  "conceptdoi": "10.5281/zenodo.21747700",
+  "doi_url": "https://doi.org/10.5281/zenodo.21747701",
+  "metadata": {
+    "title": "Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?",
+    "doi": "10.5281/zenodo.21747701",
+    "publication_date": "2026-08-01",
+    "description": "Version 1.0 \u2014 2026-08-01. Operational criterion for physical reality: a quantity is physically real only if there exists a finite Turing-machine protocol that approximates it with a computable modulus of convergence, yielding measurement-distinguishable predictions. Decomposes into 11 sub-claims across quantum foundations, cosmology, thermodynamics, information theory, and computability theory.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Quni-Gudzinas, Rowan Brad",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0002-4317-5604"
+      }
+    ],
+    "keywords": [
+      "ontological closure",
+      "computability",
+      "physical reality",
+      "Turing machine",
+      "measurement theory",
+      "Landauer principle",
+      "quantum foundations",
+      "uncomputable"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/QNFO/autaxys-ontological-closure",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      }
+    ],
+    "version": "1.0",
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.21747701",
+      "recid": 21747701
+    }
+  },
+  "title": "Autaxys Ontological Closure: When Is a Physical Quantity Computationally Real?",
+  "links": {
+    "self": "https://zenodo.org/api/records/21747701",
+    "html": "https://zenodo.org/records/21747701",
+    "doi": "https://doi.org/10.5281/zenodo.21747701",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21747700",
+    "badge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.21747701.svg",
+    "conceptbadge": "https://zenodo.org/badge/doi/10.5281%2Fzenodo.21747700.svg",
+    "files": "https://zenodo.org/api/records/21747701/files",
+    "bucket": "https://zenodo.org/api/files/930bbe4c-0d37-417e-bc3b-a5312337a471",
+    "thumb250": "https://zenodo.org/record/21747701/thumb250",
+    "thumbs": {
+      "10": "https://zenodo.org/record/21747701/thumb10",
+      "50": "https://zenodo.org/record/21747701/thumb50",
+      "100": "https://zenodo.org/record/21747701/thumb100",
+      "250": "https://zenodo.org/record/21747701/thumb250",
+      "750": "https://zenodo.org/record/21747701/thumb750",
+      "1200": "https://zenodo.org/record/21747701/thumb1200"
+    },
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/21747701",
+    "latest_draft_html": "https://zenodo.org/deposit/21747701",
+    "publish": "https://zenodo.org/api/deposit/depositions/21747701/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/21747701/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/21747701/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/21747701/actions/newversion",
+    "record": "https://zenodo.org/api/records/21747701",
+    "record_html": "https://zenodo.org/record/21747701",
+    "latest": "https://zenodo.org/api/records/21747701/versions/latest",
+    "latest_html": "https://zenodo.org/records/21747701/latest"
+  },
+  "record_id": 21747701,
+  "owner": 1328013,
+  "files": [
+    {
+      "id": "6f29f3bb-a3c8-4f94-9e36-99f17cf848b6",
+      "filename": "autaxys-ontological-closure.pdf",
+      "filesize": 92334,
+      "checksum": "d91bc61e9231a429b906eef292d31fcc",
+      "links": {
+        "self": "https://zenodo.org/api/records/21747701/files/6f29f3bb-a3c8-4f94-9e36-99f17cf848b6",
+        "download": "https://zenodo.org/api/records/21747701/draft/files/autaxys-ontological-closure.pdf/content"
+      }
+    },
+    {
+      "id": "8404fc48-5214-4ccb-9b56-858d0bc5d6a1",
+      "filename": "autaxys-ontological-closure.md",
+      "filesize": 31982,
+      "checksum": "4308dc8092065af7a371a56f28c54f8d",
+      "links": {
+        "self": "https://zenodo.org/api/records/21747701/files/8404fc48-5214-4ccb-9b56-858d0bc5d6a1",
+        "download": "https://zenodo.org/api/records/21747701/draft/files/autaxys-ontological-closure.md/content"
+      }
+    },
+    {
+      "id": "04edc466-5c9a-4baf-aa1f-f9612c04766b",
+      "filename": "PROVENANCE-BUNDLE.zip",
+      "filesize": 103538,
+      "checksum": "e87063059d94e6a4d6d86c1abe86f0fd",
+      "links": {
+        "self": "https://zenodo.org/api/records/21747701/files/04edc466-5c9a-4baf-aa1f-f9612c04766b",
+        "download": "https://zenodo.org/api/records/21747701/draft/files/PROVENANCE-BUNDLE.zip/content"
+      }
+    },
+    {
+      "id": "cda7e8fc-c69c-4ed0-a409-d302feb52095",
+      "filename": "README.md",
+      "filesize": 975,
+      "checksum": "7885ff8fb78fc06713a72a2040a3c635",
+      "links": {
+        "self": "https://zenodo.org/api/records/21747701/files/cda7e8fc-c69c-4ed0-a409-d302feb52095",
+        "download": "https://zenodo.org/api/records/21747701/draft/files/README.md/content"
+      }
+    }
+  ],
+  "state": "done",
+  "submitted": true
+}
