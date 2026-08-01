@@ -1,7 +1,7 @@
 # Autaxys Ontological Closure
 
 **Status:** Published
-**DOI:** [10.5281/zenodo.PLACEHOLDER](https://doi.org/10.5281/zenodo.PLACEHOLDER)
+**DOI:** [10.5281/zenodo.21748216](https://doi.org/10.5281/zenodo.21748216)
 
 ## Quick Start
 - `autaxys-ontological-closure.md` — Paper source
