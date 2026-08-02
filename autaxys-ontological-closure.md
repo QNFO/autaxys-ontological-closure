@@ -3,7 +3,7 @@ title: "Autaxys Ontological Closure: When Is a Physical Quantity Computationally
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-01"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21748216"
+doi: "10.5281/zenodo.21749060"
 status: "published"
 version: "1.3"
 ---
